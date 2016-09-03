@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FA55A691D7B03DD00B51E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A681D7B03DD00B51E16 /* main.m */; };
+		1FA55A6C1D7B03DD00B51E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A6B1D7B03DD00B51E16 /* AppDelegate.m */; };
+		1FA55A6F1D7B03DD00B51E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A6E1D7B03DD00B51E16 /* ViewController.m */; };
+		1FA55A721D7B03DD00B51E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A701D7B03DD00B51E16 /* Main.storyboard */; };
+		1FA55A741D7B03DD00B51E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A731D7B03DD00B51E16 /* Assets.xcassets */; };
+		1FA55A771D7B03DD00B51E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A751D7B03DD00B51E16 /* LaunchScreen.storyboard */; };
+		1FA55A9F1D7B074A00B51E16 /* ZJAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A851D7B074A00B51E16 /* ZJAlbum.m */; };
+		1FA55AA01D7B074A00B51E16 /* ZJAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A871D7B074A00B51E16 /* ZJAlbumTableViewController.m */; };
+		1FA55AA11D7B074A00B51E16 /* ZJAssetsLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A891D7B074A00B51E16 /* ZJAssetsLibraryManager.m */; };
+		1FA55AA21D7B074A00B51E16 /* ZJCircleCounterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A8B1D7B074A00B51E16 /* ZJCircleCounterButton.m */; };
+		1FA55AA31D7B074A00B51E16 /* ZJImageGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A8D1D7B074A00B51E16 /* ZJImageGridCell.m */; };
+		1FA55AA41D7B074A00B51E16 /* ZJImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A8F1D7B074A00B51E16 /* ZJImageGridViewController.m */; };
+		1FA55AA51D7B074A00B51E16 /* ZJImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A911D7B074A00B51E16 /* ZJImagePickerController.m */; };
+		1FA55AA61D7B074A00B51E16 /* ZJImageSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A931D7B074A00B51E16 /* ZJImageSelectButton.m */; };
+		1FA55AA71D7B074A00B51E16 /* ZJPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A951D7B074A00B51E16 /* ZJPreviewViewController.m */; };
+		1FA55AA81D7B074A00B51E16 /* ZJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A971D7B074A00B51E16 /* ZJToolBar.m */; };
+		1FA55AA91D7B074A00B51E16 /* ZJViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A991D7B074A00B51E16 /* ZJViewerViewController.m */; };
+		1FA55AAF1D7B10C800B51E16 /* ZJImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FA55A641D7B03DD00B51E16 /* ZJImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FA55A681D7B03DD00B51E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FA55A6A1D7B03DD00B51E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FA55A6B1D7B03DD00B51E16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FA55A6D1D7B03DD00B51E16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FA55A6E1D7B03DD00B51E16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FA55A711D7B03DD00B51E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FA55A731D7B03DD00B51E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FA55A761D7B03DD00B51E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FA55A781D7B03DD00B51E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA55A841D7B074A00B51E16 /* ZJAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAlbum.h; sourceTree = "<group>"; };
+		1FA55A851D7B074A00B51E16 /* ZJAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAlbum.m; sourceTree = "<group>"; };
+		1FA55A861D7B074A00B51E16 /* ZJAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAlbumTableViewController.h; sourceTree = "<group>"; };
+		1FA55A871D7B074A00B51E16 /* ZJAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAlbumTableViewController.m; sourceTree = "<group>"; };
+		1FA55A881D7B074A00B51E16 /* ZJAssetsLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAssetsLibraryManager.h; sourceTree = "<group>"; };
+		1FA55A891D7B074A00B51E16 /* ZJAssetsLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAssetsLibraryManager.m; sourceTree = "<group>"; };
+		1FA55A8A1D7B074A00B51E16 /* ZJCircleCounterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCircleCounterButton.h; sourceTree = "<group>"; };
+		1FA55A8B1D7B074A00B51E16 /* ZJCircleCounterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCircleCounterButton.m; sourceTree = "<group>"; };
+		1FA55A8C1D7B074A00B51E16 /* ZJImageGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageGridCell.h; sourceTree = "<group>"; };
+		1FA55A8D1D7B074A00B51E16 /* ZJImageGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageGridCell.m; sourceTree = "<group>"; };
+		1FA55A8E1D7B074A00B51E16 /* ZJImageGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageGridViewController.h; sourceTree = "<group>"; };
+		1FA55A8F1D7B074A00B51E16 /* ZJImageGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageGridViewController.m; sourceTree = "<group>"; };
+		1FA55A901D7B074A00B51E16 /* ZJImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImagePickerController.h; sourceTree = "<group>"; };
+		1FA55A911D7B074A00B51E16 /* ZJImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImagePickerController.m; sourceTree = "<group>"; };
+		1FA55A921D7B074A00B51E16 /* ZJImageSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageSelectButton.h; sourceTree = "<group>"; };
+		1FA55A931D7B074A00B51E16 /* ZJImageSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageSelectButton.m; sourceTree = "<group>"; };
+		1FA55A941D7B074A00B51E16 /* ZJPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPreviewViewController.h; sourceTree = "<group>"; };
+		1FA55A951D7B074A00B51E16 /* ZJPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPreviewViewController.m; sourceTree = "<group>"; };
+		1FA55A961D7B074A00B51E16 /* ZJToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToolBar.h; sourceTree = "<group>"; };
+		1FA55A971D7B074A00B51E16 /* ZJToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToolBar.m; sourceTree = "<group>"; };
+		1FA55A981D7B074A00B51E16 /* ZJViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewerViewController.h; sourceTree = "<group>"; };
+		1FA55A991D7B074A00B51E16 /* ZJViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewerViewController.m; sourceTree = "<group>"; };
+		1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZJImage.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA55A611D7B03DD00B51E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA55A5B1D7B03DD00B51E16 = {
+			isa = PBXGroup;
+			children = (
+				1FA55A661D7B03DD00B51E16 /* ZJImagePickerDemo */,
+				1FA55A651D7B03DD00B51E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FA55A651D7B03DD00B51E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FA55A641D7B03DD00B51E16 /* ZJImagePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FA55A661D7B03DD00B51E16 /* ZJImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1FA55A7E1D7B074A00B51E16 /* ZJImagePicker */,
+				1FA55A6A1D7B03DD00B51E16 /* AppDelegate.h */,
+				1FA55A6B1D7B03DD00B51E16 /* AppDelegate.m */,
+				1FA55A6D1D7B03DD00B51E16 /* ViewController.h */,
+				1FA55A6E1D7B03DD00B51E16 /* ViewController.m */,
+				1FA55A701D7B03DD00B51E16 /* Main.storyboard */,
+				1FA55A731D7B03DD00B51E16 /* Assets.xcassets */,
+				1FA55A751D7B03DD00B51E16 /* LaunchScreen.storyboard */,
+				1FA55A781D7B03DD00B51E16 /* Info.plist */,
+				1FA55A671D7B03DD00B51E16 /* Supporting Files */,
+			);
+			path = ZJImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		1FA55A671D7B03DD00B51E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FA55A681D7B03DD00B51E16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FA55A7E1D7B074A00B51E16 /* ZJImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */,
+				1FA55A841D7B074A00B51E16 /* ZJAlbum.h */,
+				1FA55A851D7B074A00B51E16 /* ZJAlbum.m */,
+				1FA55A861D7B074A00B51E16 /* ZJAlbumTableViewController.h */,
+				1FA55A871D7B074A00B51E16 /* ZJAlbumTableViewController.m */,
+				1FA55A881D7B074A00B51E16 /* ZJAssetsLibraryManager.h */,
+				1FA55A891D7B074A00B51E16 /* ZJAssetsLibraryManager.m */,
+				1FA55A8A1D7B074A00B51E16 /* ZJCircleCounterButton.h */,
+				1FA55A8B1D7B074A00B51E16 /* ZJCircleCounterButton.m */,
+				1FA55A8C1D7B074A00B51E16 /* ZJImageGridCell.h */,
+				1FA55A8D1D7B074A00B51E16 /* ZJImageGridCell.m */,
+				1FA55A8E1D7B074A00B51E16 /* ZJImageGridViewController.h */,
+				1FA55A8F1D7B074A00B51E16 /* ZJImageGridViewController.m */,
+				1FA55A901D7B074A00B51E16 /* ZJImagePickerController.h */,
+				1FA55A911D7B074A00B51E16 /* ZJImagePickerController.m */,
+				1FA55A921D7B074A00B51E16 /* ZJImageSelectButton.h */,
+				1FA55A931D7B074A00B51E16 /* ZJImageSelectButton.m */,
+				1FA55A941D7B074A00B51E16 /* ZJPreviewViewController.h */,
+				1FA55A951D7B074A00B51E16 /* ZJPreviewViewController.m */,
+				1FA55A961D7B074A00B51E16 /* ZJToolBar.h */,
+				1FA55A971D7B074A00B51E16 /* ZJToolBar.m */,
+				1FA55A981D7B074A00B51E16 /* ZJViewerViewController.h */,
+				1FA55A991D7B074A00B51E16 /* ZJViewerViewController.m */,
+			);
+			path = ZJImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FA55A631D7B03DD00B51E16 /* ZJImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA55A7B1D7B03DD00B51E16 /* Build configuration list for PBXNativeTarget "ZJImagePickerDemo" */;
+			buildPhases = (
+				1FA55A601D7B03DD00B51E16 /* Sources */,
+				1FA55A611D7B03DD00B51E16 /* Frameworks */,
+				1FA55A621D7B03DD00B51E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJImagePickerDemo;
+			productName = ZJImagePickerDemo;
+			productReference = 1FA55A641D7B03DD00B51E16 /* ZJImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FA55A5C1D7B03DD00B51E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Triangle;
+				TargetAttributes = {
+					1FA55A631D7B03DD00B51E16 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1FA55A5F1D7B03DD00B51E16 /* Build configuration list for PBXProject "ZJImagePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FA55A5B1D7B03DD00B51E16;
+			productRefGroup = 1FA55A651D7B03DD00B51E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FA55A631D7B03DD00B51E16 /* ZJImagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FA55A621D7B03DD00B51E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA55A771D7B03DD00B51E16 /* LaunchScreen.storyboard in Resources */,
+				1FA55AAF1D7B10C800B51E16 /* ZJImage.bundle in Resources */,
+				1FA55A741D7B03DD00B51E16 /* Assets.xcassets in Resources */,
+				1FA55A721D7B03DD00B51E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FA55A601D7B03DD00B51E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FA55AA01D7B074A00B51E16 /* ZJAlbumTableViewController.m in Sources */,
+				1FA55AA71D7B074A00B51E16 /* ZJPreviewViewController.m in Sources */,
+				1FA55AA51D7B074A00B51E16 /* ZJImagePickerController.m in Sources */,
+				1FA55AA61D7B074A00B51E16 /* ZJImageSelectButton.m in Sources */,
+				1FA55AA31D7B074A00B51E16 /* ZJImageGridCell.m in Sources */,
+				1FA55A6F1D7B03DD00B51E16 /* ViewController.m in Sources */,
+				1FA55AA11D7B074A00B51E16 /* ZJAssetsLibraryManager.m in Sources */,
+				1FA55A9F1D7B074A00B51E16 /* ZJAlbum.m in Sources */,
+				1FA55AA81D7B074A00B51E16 /* ZJToolBar.m in Sources */,
+				1FA55A6C1D7B03DD00B51E16 /* AppDelegate.m in Sources */,
+				1FA55AA21D7B074A00B51E16 /* ZJCircleCounterButton.m in Sources */,
+				1FA55AA41D7B074A00B51E16 /* ZJImageGridViewController.m in Sources */,
+				1FA55AA91D7B074A00B51E16 /* ZJViewerViewController.m in Sources */,
+				1FA55A691D7B03DD00B51E16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FA55A701D7B03DD00B51E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA55A711D7B03DD00B51E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FA55A751D7B03DD00B51E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA55A761D7B03DD00B51E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FA55A791D7B03DD00B51E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FA55A7A1D7B03DD00B51E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FA55A7C1D7B03DD00B51E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZJImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1FA55A7D1D7B03DD00B51E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ZJImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA55A5F1D7B03DD00B51E16 /* Build configuration list for PBXProject "ZJImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA55A791D7B03DD00B51E16 /* Debug */,
+				1FA55A7A1D7B03DD00B51E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FA55A7B1D7B03DD00B51E16 /* Build configuration list for PBXNativeTarget "ZJImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA55A7C1D7B03DD00B51E16 /* Debug */,
+				1FA55A7D1D7B03DD00B51E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FA55A5C1D7B03DD00B51E16 /* Project object */;
+}
