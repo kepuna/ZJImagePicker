@@ -40,7 +40,6 @@
         NSBundle *bundle = [NSBundle bundleForClass:[self class]];
         NSURL *url = [bundle URLForResource:@"ZJImage.bundle" withExtension:nil];
         NSBundle *imageBundle = [NSBundle bundleWithURL:url];
-        
         UIImage *image = [UIImage imageNamed:@"number_icon"
                                     inBundle:imageBundle
                compatibleWithTraitCollection:nil];

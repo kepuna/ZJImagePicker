@@ -7,27 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F40DF231D7B371F003AC217 /* ZJPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF0D1D7B371F003AC217 /* ZJPreviewViewController.m */; };
+		1F40DF241D7B371F003AC217 /* ZJViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF0F1D7B371F003AC217 /* ZJViewerViewController.m */; };
+		1F40DF251D7B371F003AC217 /* ZJAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF121D7B371F003AC217 /* ZJAlbum.m */; };
+		1F40DF261D7B371F003AC217 /* ZJAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF141D7B371F003AC217 /* ZJAlbumTableViewController.m */; };
+		1F40DF271D7B371F003AC217 /* ZJAssetsLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF161D7B371F003AC217 /* ZJAssetsLibraryManager.m */; };
+		1F40DF281D7B371F003AC217 /* ZJCircleCounterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF181D7B371F003AC217 /* ZJCircleCounterButton.m */; };
+		1F40DF291D7B371F003AC217 /* ZJImageGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF1A1D7B371F003AC217 /* ZJImageGridCell.m */; };
+		1F40DF2A1D7B371F003AC217 /* ZJImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF1C1D7B371F003AC217 /* ZJImageGridViewController.m */; };
+		1F40DF2B1D7B371F003AC217 /* ZJImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF1E1D7B371F003AC217 /* ZJImagePickerController.m */; };
+		1F40DF2C1D7B371F003AC217 /* ZJImageSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF201D7B371F003AC217 /* ZJImageSelectButton.m */; };
+		1F40DF2D1D7B371F003AC217 /* ZJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40DF221D7B371F003AC217 /* ZJToolBar.m */; };
 		1FA55A691D7B03DD00B51E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A681D7B03DD00B51E16 /* main.m */; };
 		1FA55A6C1D7B03DD00B51E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A6B1D7B03DD00B51E16 /* AppDelegate.m */; };
 		1FA55A6F1D7B03DD00B51E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A6E1D7B03DD00B51E16 /* ViewController.m */; };
 		1FA55A721D7B03DD00B51E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A701D7B03DD00B51E16 /* Main.storyboard */; };
 		1FA55A741D7B03DD00B51E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A731D7B03DD00B51E16 /* Assets.xcassets */; };
 		1FA55A771D7B03DD00B51E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A751D7B03DD00B51E16 /* LaunchScreen.storyboard */; };
-		1FA55A9F1D7B074A00B51E16 /* ZJAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A851D7B074A00B51E16 /* ZJAlbum.m */; };
-		1FA55AA01D7B074A00B51E16 /* ZJAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A871D7B074A00B51E16 /* ZJAlbumTableViewController.m */; };
-		1FA55AA11D7B074A00B51E16 /* ZJAssetsLibraryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A891D7B074A00B51E16 /* ZJAssetsLibraryManager.m */; };
-		1FA55AA21D7B074A00B51E16 /* ZJCircleCounterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A8B1D7B074A00B51E16 /* ZJCircleCounterButton.m */; };
-		1FA55AA31D7B074A00B51E16 /* ZJImageGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A8D1D7B074A00B51E16 /* ZJImageGridCell.m */; };
-		1FA55AA41D7B074A00B51E16 /* ZJImageGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A8F1D7B074A00B51E16 /* ZJImageGridViewController.m */; };
-		1FA55AA51D7B074A00B51E16 /* ZJImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A911D7B074A00B51E16 /* ZJImagePickerController.m */; };
-		1FA55AA61D7B074A00B51E16 /* ZJImageSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A931D7B074A00B51E16 /* ZJImageSelectButton.m */; };
-		1FA55AA71D7B074A00B51E16 /* ZJPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A951D7B074A00B51E16 /* ZJPreviewViewController.m */; };
-		1FA55AA81D7B074A00B51E16 /* ZJToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A971D7B074A00B51E16 /* ZJToolBar.m */; };
-		1FA55AA91D7B074A00B51E16 /* ZJViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA55A991D7B074A00B51E16 /* ZJViewerViewController.m */; };
 		1FA55AAF1D7B10C800B51E16 /* ZJImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F40DF0C1D7B371F003AC217 /* ZJPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPreviewViewController.h; sourceTree = "<group>"; };
+		1F40DF0D1D7B371F003AC217 /* ZJPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPreviewViewController.m; sourceTree = "<group>"; };
+		1F40DF0E1D7B371F003AC217 /* ZJViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewerViewController.h; sourceTree = "<group>"; };
+		1F40DF0F1D7B371F003AC217 /* ZJViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewerViewController.m; sourceTree = "<group>"; };
+		1F40DF111D7B371F003AC217 /* ZJAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAlbum.h; sourceTree = "<group>"; };
+		1F40DF121D7B371F003AC217 /* ZJAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAlbum.m; sourceTree = "<group>"; };
+		1F40DF131D7B371F003AC217 /* ZJAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAlbumTableViewController.h; sourceTree = "<group>"; };
+		1F40DF141D7B371F003AC217 /* ZJAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAlbumTableViewController.m; sourceTree = "<group>"; };
+		1F40DF151D7B371F003AC217 /* ZJAssetsLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAssetsLibraryManager.h; sourceTree = "<group>"; };
+		1F40DF161D7B371F003AC217 /* ZJAssetsLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAssetsLibraryManager.m; sourceTree = "<group>"; };
+		1F40DF171D7B371F003AC217 /* ZJCircleCounterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCircleCounterButton.h; sourceTree = "<group>"; };
+		1F40DF181D7B371F003AC217 /* ZJCircleCounterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCircleCounterButton.m; sourceTree = "<group>"; };
+		1F40DF191D7B371F003AC217 /* ZJImageGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageGridCell.h; sourceTree = "<group>"; };
+		1F40DF1A1D7B371F003AC217 /* ZJImageGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageGridCell.m; sourceTree = "<group>"; };
+		1F40DF1B1D7B371F003AC217 /* ZJImageGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageGridViewController.h; sourceTree = "<group>"; };
+		1F40DF1C1D7B371F003AC217 /* ZJImageGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageGridViewController.m; sourceTree = "<group>"; };
+		1F40DF1D1D7B371F003AC217 /* ZJImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImagePickerController.h; sourceTree = "<group>"; };
+		1F40DF1E1D7B371F003AC217 /* ZJImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImagePickerController.m; sourceTree = "<group>"; };
+		1F40DF1F1D7B371F003AC217 /* ZJImageSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageSelectButton.h; sourceTree = "<group>"; };
+		1F40DF201D7B371F003AC217 /* ZJImageSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageSelectButton.m; sourceTree = "<group>"; };
+		1F40DF211D7B371F003AC217 /* ZJToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToolBar.h; sourceTree = "<group>"; };
+		1F40DF221D7B371F003AC217 /* ZJToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToolBar.m; sourceTree = "<group>"; };
 		1FA55A641D7B03DD00B51E16 /* ZJImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA55A681D7B03DD00B51E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FA55A6A1D7B03DD00B51E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,28 +60,6 @@
 		1FA55A731D7B03DD00B51E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA55A761D7B03DD00B51E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA55A781D7B03DD00B51E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FA55A841D7B074A00B51E16 /* ZJAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAlbum.h; sourceTree = "<group>"; };
-		1FA55A851D7B074A00B51E16 /* ZJAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAlbum.m; sourceTree = "<group>"; };
-		1FA55A861D7B074A00B51E16 /* ZJAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAlbumTableViewController.h; sourceTree = "<group>"; };
-		1FA55A871D7B074A00B51E16 /* ZJAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAlbumTableViewController.m; sourceTree = "<group>"; };
-		1FA55A881D7B074A00B51E16 /* ZJAssetsLibraryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJAssetsLibraryManager.h; sourceTree = "<group>"; };
-		1FA55A891D7B074A00B51E16 /* ZJAssetsLibraryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJAssetsLibraryManager.m; sourceTree = "<group>"; };
-		1FA55A8A1D7B074A00B51E16 /* ZJCircleCounterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCircleCounterButton.h; sourceTree = "<group>"; };
-		1FA55A8B1D7B074A00B51E16 /* ZJCircleCounterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCircleCounterButton.m; sourceTree = "<group>"; };
-		1FA55A8C1D7B074A00B51E16 /* ZJImageGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageGridCell.h; sourceTree = "<group>"; };
-		1FA55A8D1D7B074A00B51E16 /* ZJImageGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageGridCell.m; sourceTree = "<group>"; };
-		1FA55A8E1D7B074A00B51E16 /* ZJImageGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageGridViewController.h; sourceTree = "<group>"; };
-		1FA55A8F1D7B074A00B51E16 /* ZJImageGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageGridViewController.m; sourceTree = "<group>"; };
-		1FA55A901D7B074A00B51E16 /* ZJImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImagePickerController.h; sourceTree = "<group>"; };
-		1FA55A911D7B074A00B51E16 /* ZJImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImagePickerController.m; sourceTree = "<group>"; };
-		1FA55A921D7B074A00B51E16 /* ZJImageSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageSelectButton.h; sourceTree = "<group>"; };
-		1FA55A931D7B074A00B51E16 /* ZJImageSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageSelectButton.m; sourceTree = "<group>"; };
-		1FA55A941D7B074A00B51E16 /* ZJPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPreviewViewController.h; sourceTree = "<group>"; };
-		1FA55A951D7B074A00B51E16 /* ZJPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPreviewViewController.m; sourceTree = "<group>"; };
-		1FA55A961D7B074A00B51E16 /* ZJToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJToolBar.h; sourceTree = "<group>"; };
-		1FA55A971D7B074A00B51E16 /* ZJToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJToolBar.m; sourceTree = "<group>"; };
-		1FA55A981D7B074A00B51E16 /* ZJViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJViewerViewController.h; sourceTree = "<group>"; };
-		1FA55A991D7B074A00B51E16 /* ZJViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJViewerViewController.m; sourceTree = "<group>"; };
 		1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZJImage.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +74,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F40DF0B1D7B371F003AC217 /* ImageBrower */ = {
+			isa = PBXGroup;
+			children = (
+				1F40DF0C1D7B371F003AC217 /* ZJPreviewViewController.h */,
+				1F40DF0D1D7B371F003AC217 /* ZJPreviewViewController.m */,
+				1F40DF0E1D7B371F003AC217 /* ZJViewerViewController.h */,
+				1F40DF0F1D7B371F003AC217 /* ZJViewerViewController.m */,
+			);
+			path = ImageBrower;
+			sourceTree = "<group>";
+		};
+		1F40DF101D7B371F003AC217 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1F40DF111D7B371F003AC217 /* ZJAlbum.h */,
+				1F40DF121D7B371F003AC217 /* ZJAlbum.m */,
+				1F40DF131D7B371F003AC217 /* ZJAlbumTableViewController.h */,
+				1F40DF141D7B371F003AC217 /* ZJAlbumTableViewController.m */,
+				1F40DF151D7B371F003AC217 /* ZJAssetsLibraryManager.h */,
+				1F40DF161D7B371F003AC217 /* ZJAssetsLibraryManager.m */,
+				1F40DF171D7B371F003AC217 /* ZJCircleCounterButton.h */,
+				1F40DF181D7B371F003AC217 /* ZJCircleCounterButton.m */,
+				1F40DF191D7B371F003AC217 /* ZJImageGridCell.h */,
+				1F40DF1A1D7B371F003AC217 /* ZJImageGridCell.m */,
+				1F40DF1B1D7B371F003AC217 /* ZJImageGridViewController.h */,
+				1F40DF1C1D7B371F003AC217 /* ZJImageGridViewController.m */,
+				1F40DF1D1D7B371F003AC217 /* ZJImagePickerController.h */,
+				1F40DF1E1D7B371F003AC217 /* ZJImagePickerController.m */,
+				1F40DF1F1D7B371F003AC217 /* ZJImageSelectButton.h */,
+				1F40DF201D7B371F003AC217 /* ZJImageSelectButton.m */,
+				1F40DF211D7B371F003AC217 /* ZJToolBar.h */,
+				1F40DF221D7B371F003AC217 /* ZJToolBar.m */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		1FA55A5B1D7B03DD00B51E16 = {
 			isa = PBXGroup;
 			children = (
@@ -118,29 +154,9 @@
 		1FA55A7E1D7B074A00B51E16 /* ZJImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				1F40DF0B1D7B371F003AC217 /* ImageBrower */,
+				1F40DF101D7B371F003AC217 /* ImagePicker */,
 				1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */,
-				1FA55A841D7B074A00B51E16 /* ZJAlbum.h */,
-				1FA55A851D7B074A00B51E16 /* ZJAlbum.m */,
-				1FA55A861D7B074A00B51E16 /* ZJAlbumTableViewController.h */,
-				1FA55A871D7B074A00B51E16 /* ZJAlbumTableViewController.m */,
-				1FA55A881D7B074A00B51E16 /* ZJAssetsLibraryManager.h */,
-				1FA55A891D7B074A00B51E16 /* ZJAssetsLibraryManager.m */,
-				1FA55A8A1D7B074A00B51E16 /* ZJCircleCounterButton.h */,
-				1FA55A8B1D7B074A00B51E16 /* ZJCircleCounterButton.m */,
-				1FA55A8C1D7B074A00B51E16 /* ZJImageGridCell.h */,
-				1FA55A8D1D7B074A00B51E16 /* ZJImageGridCell.m */,
-				1FA55A8E1D7B074A00B51E16 /* ZJImageGridViewController.h */,
-				1FA55A8F1D7B074A00B51E16 /* ZJImageGridViewController.m */,
-				1FA55A901D7B074A00B51E16 /* ZJImagePickerController.h */,
-				1FA55A911D7B074A00B51E16 /* ZJImagePickerController.m */,
-				1FA55A921D7B074A00B51E16 /* ZJImageSelectButton.h */,
-				1FA55A931D7B074A00B51E16 /* ZJImageSelectButton.m */,
-				1FA55A941D7B074A00B51E16 /* ZJPreviewViewController.h */,
-				1FA55A951D7B074A00B51E16 /* ZJPreviewViewController.m */,
-				1FA55A961D7B074A00B51E16 /* ZJToolBar.h */,
-				1FA55A971D7B074A00B51E16 /* ZJToolBar.m */,
-				1FA55A981D7B074A00B51E16 /* ZJViewerViewController.h */,
-				1FA55A991D7B074A00B51E16 /* ZJViewerViewController.m */,
 			);
 			path = ZJImagePicker;
 			sourceTree = "<group>";
@@ -216,20 +232,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA55AA01D7B074A00B51E16 /* ZJAlbumTableViewController.m in Sources */,
-				1FA55AA71D7B074A00B51E16 /* ZJPreviewViewController.m in Sources */,
-				1FA55AA51D7B074A00B51E16 /* ZJImagePickerController.m in Sources */,
-				1FA55AA61D7B074A00B51E16 /* ZJImageSelectButton.m in Sources */,
-				1FA55AA31D7B074A00B51E16 /* ZJImageGridCell.m in Sources */,
+				1F40DF241D7B371F003AC217 /* ZJViewerViewController.m in Sources */,
+				1F40DF2A1D7B371F003AC217 /* ZJImageGridViewController.m in Sources */,
+				1F40DF2C1D7B371F003AC217 /* ZJImageSelectButton.m in Sources */,
+				1F40DF291D7B371F003AC217 /* ZJImageGridCell.m in Sources */,
 				1FA55A6F1D7B03DD00B51E16 /* ViewController.m in Sources */,
-				1FA55AA11D7B074A00B51E16 /* ZJAssetsLibraryManager.m in Sources */,
-				1FA55A9F1D7B074A00B51E16 /* ZJAlbum.m in Sources */,
-				1FA55AA81D7B074A00B51E16 /* ZJToolBar.m in Sources */,
+				1F40DF271D7B371F003AC217 /* ZJAssetsLibraryManager.m in Sources */,
+				1F40DF2B1D7B371F003AC217 /* ZJImagePickerController.m in Sources */,
+				1F40DF261D7B371F003AC217 /* ZJAlbumTableViewController.m in Sources */,
+				1F40DF231D7B371F003AC217 /* ZJPreviewViewController.m in Sources */,
+				1F40DF251D7B371F003AC217 /* ZJAlbum.m in Sources */,
 				1FA55A6C1D7B03DD00B51E16 /* AppDelegate.m in Sources */,
-				1FA55AA21D7B074A00B51E16 /* ZJCircleCounterButton.m in Sources */,
-				1FA55AA41D7B074A00B51E16 /* ZJImageGridViewController.m in Sources */,
-				1FA55AA91D7B074A00B51E16 /* ZJViewerViewController.m in Sources */,
+				1F40DF281D7B371F003AC217 /* ZJCircleCounterButton.m in Sources */,
 				1FA55A691D7B03DD00B51E16 /* main.m in Sources */,
+				1F40DF2D1D7B371F003AC217 /* ZJToolBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
