@@ -1,2 +1,3 @@
-# mock_weibo
-模仿微博
+# ZJImagePicker
+图片选择器
+
