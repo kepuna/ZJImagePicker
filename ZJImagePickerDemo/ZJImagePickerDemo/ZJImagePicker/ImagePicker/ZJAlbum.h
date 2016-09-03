@@ -1,9 +1,9 @@
 //
 //  ZJAlbum.h
-//  CameraDemo
+//  ZJImagePickerDemo
 //
-//  Created by 郑佳 on 16/8/17.
-//  Copyright © 2016年 Triangle. All rights reserved.
+//  Created by 郑佳 on 15/1/25.
+//  Copyright © 2015年 Triangle. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
