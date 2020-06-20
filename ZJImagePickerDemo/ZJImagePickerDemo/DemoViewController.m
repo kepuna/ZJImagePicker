@@ -17,11 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    // 设置背景颜色
-    self.view.backgroundColor  = [UIColor yellowColor];
-    self.view.alpha = 0.5;
-    self.view.bounds = CGRectMake(0, 0, 50, 50);
-    self.view.center = CGPointMake(30, 50);
+    
+    UIView *demoView = [UIView new];
+    demoView.frame = CGRectMake(0, 0, 100, 50);
+    demoView.backgroundColor = [UIColor yellowColor];
+    demoView.alpha = 0.5;
+    [self.view addSubview:demoView];
 }
 
 /*
