@@ -20,6 +20,7 @@
     UIView *testView = [UIView new];
     testView.frame = CGRectMake(0, 0, 100, 50);
     testView.backgroundColor = [UIColor blueColor];
+    testView.alpha = 0.5;
     [self.view addSubview:testView];
 }
 
