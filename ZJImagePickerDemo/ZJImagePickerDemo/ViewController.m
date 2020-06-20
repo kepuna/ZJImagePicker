@@ -41,6 +41,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      
+    self.view.backgroundColor = [UIColor yellowColor];
     // 创建一个bar
     ZJToolBar *bar = [ZJToolBar new];
     bar.backgroundColor = [UIColor greenColor];
