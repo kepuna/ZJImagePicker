@@ -24,12 +24,12 @@
     ZJImagePickerController *picker = [[ZJImagePickerController alloc] initWithSelectedAssets:self.selectedAssets];
     picker.imagePickerdelegate = self;
     picker.maxPickerCount = 3;
-    
+    // 显示控制器
     [self presentViewController:picker animated:YES completion:nil];
     
     
 }
-
+// 浏览器的代理方法
 - (void)imagePickerController:(ZJImagePickerController *)picker didFinishSelectedImages:(NSArray *)images selectedAssets:(NSArray *)selectedAssets{
     
     NSLog(@"--✅-%@",images);
