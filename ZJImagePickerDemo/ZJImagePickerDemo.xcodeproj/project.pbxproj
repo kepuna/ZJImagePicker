@@ -25,6 +25,8 @@
 		1FA55A741D7B03DD00B51E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A731D7B03DD00B51E16 /* Assets.xcassets */; };
 		1FA55A771D7B03DD00B51E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55A751D7B03DD00B51E16 /* LaunchScreen.storyboard */; };
 		1FA55AAF1D7B10C800B51E16 /* ZJImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */; };
+		1FBCBCCA249DCBF200215ADA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCBCC9249DCBF200215ADA /* TestViewController.m */; };
+		1FBCBCCD249DCE5D00215ADA /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCBCCC249DCE5D00215ADA /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,10 @@
 		1FA55A761D7B03DD00B51E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA55A781D7B03DD00B51E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FA55AAE1D7B10C800B51E16 /* ZJImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZJImage.bundle; sourceTree = "<group>"; };
+		1FBCBCC8249DCBF200215ADA /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1FBCBCC9249DCBF200215ADA /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		1FBCBCCB249DCE5D00215ADA /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		1FBCBCCC249DCE5D00215ADA /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,10 @@
 				1FA55A6B1D7B03DD00B51E16 /* AppDelegate.m */,
 				1FA55A6D1D7B03DD00B51E16 /* ViewController.h */,
 				1FA55A6E1D7B03DD00B51E16 /* ViewController.m */,
+				1FBCBCC8249DCBF200215ADA /* TestViewController.h */,
+				1FBCBCC9249DCBF200215ADA /* TestViewController.m */,
+				1FBCBCCB249DCE5D00215ADA /* DemoViewController.h */,
+				1FBCBCCC249DCE5D00215ADA /* DemoViewController.m */,
 				1FA55A701D7B03DD00B51E16 /* Main.storyboard */,
 				1FA55A731D7B03DD00B51E16 /* Assets.xcassets */,
 				1FA55A751D7B03DD00B51E16 /* LaunchScreen.storyboard */,
@@ -200,6 +210,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -235,12 +246,14 @@
 				1F40DF241D7B371F003AC217 /* ZJViewerViewController.m in Sources */,
 				1F40DF2A1D7B371F003AC217 /* ZJImageGridViewController.m in Sources */,
 				1F40DF2C1D7B371F003AC217 /* ZJImageSelectButton.m in Sources */,
+				1FBCBCCD249DCE5D00215ADA /* DemoViewController.m in Sources */,
 				1F40DF291D7B371F003AC217 /* ZJImageGridCell.m in Sources */,
 				1FA55A6F1D7B03DD00B51E16 /* ViewController.m in Sources */,
 				1F40DF271D7B371F003AC217 /* ZJAssetsLibraryManager.m in Sources */,
 				1F40DF2B1D7B371F003AC217 /* ZJImagePickerController.m in Sources */,
 				1F40DF261D7B371F003AC217 /* ZJAlbumTableViewController.m in Sources */,
 				1F40DF231D7B371F003AC217 /* ZJPreviewViewController.m in Sources */,
+				1FBCBCCA249DCBF200215ADA /* TestViewController.m in Sources */,
 				1F40DF251D7B371F003AC217 /* ZJAlbum.m in Sources */,
 				1FA55A6C1D7B03DD00B51E16 /* AppDelegate.m in Sources */,
 				1F40DF281D7B371F003AC217 /* ZJCircleCounterButton.m in Sources */,
