@@ -24,6 +24,8 @@
     demoView.alpha = 0.5;
     demoView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:demoView];
+    
+    // modify Demo dev1_zj 修改
 }
 
 /*
