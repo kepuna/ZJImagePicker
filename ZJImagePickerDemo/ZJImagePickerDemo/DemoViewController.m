@@ -18,8 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // 设置背景颜色
-    self.view.backgroundColor  = [UIColor greenColor];
-    self.view.alpha = 0.8;
+    self.view.backgroundColor  = [UIColor blueColor];
+    // 设置透明度
+    self.view.alpha = 0.6;
+
 }
 
 /*
