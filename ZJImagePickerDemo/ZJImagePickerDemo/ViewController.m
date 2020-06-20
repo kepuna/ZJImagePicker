@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZJImagePickerController.h"
+#import "ZJToolBar.h"
 
 @interface ViewController ()<ZJImagePickerControllerDelegate>
 
@@ -37,7 +38,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+     
+    // 创建一个bar
+    ZJToolBar *bar = [ZJToolBar new];
 }
 
 
