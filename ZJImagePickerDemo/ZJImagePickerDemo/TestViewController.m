@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    UIView *testView = [UIView new];
+    testView.backgroundColor = [UIColor blueColor];
+    testView.frame = CGRectMake(0, 0, 100, 50);
 }
 
 /*
