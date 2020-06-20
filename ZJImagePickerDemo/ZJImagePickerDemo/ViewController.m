@@ -34,6 +34,7 @@
 - (void)imagePickerController:(ZJImagePickerController *)picker didFinishSelectedImages:(NSArray *)images selectedAssets:(NSArray *)selectedAssets{
     
     NSMutableArray *arrayM  = [selectedAssets mutableCopy];
+    [arrayM addObject:@"0000"];
     [arrayM addObject:@"111"];
     NSLog(@"--✅-%@",images);
 }
