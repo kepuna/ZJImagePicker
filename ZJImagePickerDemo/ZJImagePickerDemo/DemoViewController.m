@@ -18,9 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // 设置背景颜色
-    self.view.backgroundColor  = [UIColor greenColor];
-    self.view.alpha = 0.8;
+    self.view.backgroundColor  = [UIColor yellowColor];
+    self.view.alpha = 0.5;
     self.view.bounds = CGRectMake(0, 0, 50, 50);
+    self.view.center = CGPointMake(30, 50);
 }
 
 /*
