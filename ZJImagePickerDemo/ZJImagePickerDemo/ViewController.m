@@ -32,7 +32,7 @@
 
 - (void)imagePickerController:(ZJImagePickerController *)picker didFinishSelectedImages:(NSArray *)images selectedAssets:(NSArray *)selectedAssets{
     
-    NSLog(@"---%@",images);
+    NSLog(@"--✅-%@",images);
 }
 
 - (void)viewDidLoad {
