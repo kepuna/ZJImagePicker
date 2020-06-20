@@ -20,7 +20,7 @@
 
 - (IBAction)btnClick:(id)sender {
     
-    
+    // 点击按钮常见一个图片浏览器控制器
     ZJImagePickerController *picker = [[ZJImagePickerController alloc] initWithSelectedAssets:self.selectedAssets];
     picker.imagePickerdelegate = self;
     picker.maxPickerCount = 3;
