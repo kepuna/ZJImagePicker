@@ -41,6 +41,7 @@
      
     // 创建一个bar
     ZJToolBar *bar = [ZJToolBar new];
+    bar.backgroundColor = [UIColor greenColor];
 }
 
 
