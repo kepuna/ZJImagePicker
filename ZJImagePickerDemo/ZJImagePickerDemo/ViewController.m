@@ -42,6 +42,7 @@
     // 创建一个bar
     ZJToolBar *bar = [ZJToolBar new];
     bar.backgroundColor = [UIColor greenColor];
+    bar.frame = CGRectMake(0, 0, 100, 100);
 }
 
 
