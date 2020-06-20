@@ -20,6 +20,7 @@
     // 设置背景颜色
     self.view.backgroundColor  = [UIColor greenColor];
     self.view.alpha = 0.8;
+    self.view.bounds = CGRectMake(0, 0, 50, 50);
 }
 
 /*
