@@ -22,6 +22,7 @@
     demoView.frame = CGRectMake(0, 0, 100, 50);
     demoView.backgroundColor = [UIColor yellowColor];
     demoView.alpha = 0.5;
+    demoView.backgroundColor = [UIColor greenColor];
     [self.view addSubview:demoView];
 }
 
